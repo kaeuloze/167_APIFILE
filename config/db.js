@@ -1,5 +1,4 @@
-db.js
-const mysql = require('../models');
+const db = require('../models');
 
 async function connectDatabase(){
     try{
